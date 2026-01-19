@@ -1,0 +1,8 @@
+const products = [
+  { id: 1, name: "Laptop", price: 1200 },
+  { id: 2, name: "Phone", price: 800 }
+];
+
+module.exports = {
+  getProducts: () => products
+};
